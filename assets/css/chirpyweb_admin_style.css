@@ -1,0 +1,192 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: rgba(0,0,0,0.87);
+	font-size: 14px;
+}
+.chirpyweb-wordpress {
+	width: calc(100% - 25px);
+	border: 1px solid rgba(0,0,0,0.12);
+	margin-top: 5px;
+}
+.chirpyweb-wordpress .header {
+	padding: 14px 20px;
+	background: white;
+	border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+.chirpyweb-wordpress .body {
+	padding: 14px 20px;
+	background: #F5F5F5;
+	height: calc(100vh - 124px);
+}
+h4.subheading-1 {
+	margin: 0 0 16px;
+    color: rgba(0,0,0,0.87);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Roboto , sans-serif;
+}
+.shadow-card {
+	box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+	transition: box-shadow 280ms cubic-bezier(.4,0,.2,1);
+	display: block;
+	position: relative;
+	/*padding: 16px;*/
+	border-radius: 4px;
+	background: white;
+}
+.card-container-height {
+	height: calc(100% - 74px);
+}
+.grey-border {
+	border: 1px solid rgba(0,0,0,0.12);
+	padding: 16px;
+	border-radius: 4px;
+}
+.primary-button {
+	color: #fff;
+	background-color: #1194ff;
+	box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	position: relative;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	outline: 0;
+	border: none;
+	-webkit-tap-highlight-color: transparent;
+	display: inline-block;
+	white-space: nowrap;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-align: center;
+	margin: 0;
+	min-width: 64px;
+	line-height: 36px;
+	padding: 0 16px;
+	border-radius: 4px;
+	overflow: visible;
+	transform: translate3d(0,0,0);
+	transition: background .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1);
+}
+.form-control {
+	width: 100%;
+	height: 24px;
+	font-size: 14px;
+	padding: 6px 12px;
+	background-color: #fff;
+	border-radius: 4px;
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid #d4d4d4;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-control, .form-control.focus, .form-control:focus {
+	box-shadow: none;
+}
+.inline-content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.width-400 {
+	width: 400px;
+}
+.width-500 {
+	width: 500px;
+}
+.section-two label {
+    font-weight: 500;
+}
+
+.text-body {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Roboto , sans-serif;
+}
+.text-small {
+	font: 400 0.75rem/1.567em Roboto , sans-serif;
+}
+.izooto-footer {
+	padding: 6px 20px;
+	font: 400 0.75rem/1.567em Roboto , sans-serif;
+	color: rgba(0,0,0,0.54);
+}
+.section-two {
+	display: flex;
+	flex-direction: row;
+	align-items: start;
+	justify-content: space-between;
+	height: 100%;
+}
+.section-two .left {
+	width: calc(100% - 400px);
+	height: 100%;
+	padding-left: 16px;
+}
+.section-two .right {
+	width: 400px;
+	height: 100%;
+	background: #FCFCFC;
+	border: 1px solid #DADCE0;
+	border-radius: 0 4px 4px 0;
+}
+.align-mid {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 60px;
+}
+.stroked-button {
+	color: rgba(0,0,0,0.87);
+	background-color: #fff;
+	box-shadow: none;
+	box-sizing: border-box;
+	position: relative;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	outline: 0;
+	border: 1px solid rgba(0,0,0,0.12);
+	-webkit-tap-highlight-color: transparent;
+	display: inline-block;
+	white-space: nowrap;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-align: center;
+	margin: 0;
+	min-width: 64px;
+	line-height: 36px;
+	padding: 0 16px;
+	border-radius: 4px;
+	overflow: visible;
+	transform: translate3d(0,0,0);
+	background: #1194ff;
+	color: #fff;
+	transition: background .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1);
+}
+.icon-button {
+	margin-left: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 36px;
+	min-width: 36px!important;
+}
+
+.notice, div.error, div.updated {
+	margin: 4px 22px 4px 0!important;
+}
+.izooto-wordpress img {
+	width: 250px !important;;
+	height: auto !important;;
+}
